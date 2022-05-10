@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To do list</title>
+</head>
+<body>
+	<section>
+        <h1>To do List</h1>
+        <ul>
+            {%listItem%}
+        </ul>
+    </section>
+    <form action="/" method="post">
+        <input type="text" name="itemValue">
+        <input type="submit" value="Add item">
+    </form>
+</body>
+</html>
